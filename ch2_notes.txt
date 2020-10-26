@@ -1,6 +1,8 @@
-# Types, Operators, and Expressions
+Types, Operators, and Expressions
+---------------------------------
 
-## Variable Names
+Variable Names
+--------------
 
 Variable names are made up of letters and digits, the first character of a variable name must be a letter. Note that '_' counts as a letter but that starting a variable name with an "u" is reserved by tradition for library routines.
 
@@ -11,7 +13,8 @@ Keywords: if, else, int, float, etc.
 Choose variable names that are related to the purpose of the variable, and that are unliley to get mixed up typographically.
 Short names for local variables, and longer names for external variables. Capitalize symbolic constants.
 
-## Data Types and Sizes
+Data Types and Sizes
+--------------------
 
 C only has a few basic data types:
 
@@ -40,10 +43,11 @@ For example:
 	unsigned char	0 to 255
 	signed char	-128 to 127	
 		
-## Exercise 2-1
+Exercise 2-1
+--------------
 
 Write a program to determine the ranges of char, short, int, and long variables,
 both signed and unsigned, by printing appropriate values from standard headers and by direct computation.	
 
 [First Answer](https://raw.githubusercontent.com/aaron-imbrock/K-R-exercises/master/ex21-rangesoftypes.c)
-#
+
